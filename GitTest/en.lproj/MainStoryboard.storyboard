@@ -29,10 +29,17 @@
                                     <action selector="click:" destination="2" eventType="touchUpInside" id="BPf-LP-hcU"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="this is label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lyc-FC-5aY">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Lyc-FC-5aY" secondAttribute="bottom" constant="155" id="Uhk-o3-K4v"/>
                             <constraint firstItem="5z1-CK-5h5" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="97" id="YvH-3d-sEs"/>
+                            <constraint firstItem="Lyc-FC-5aY" firstAttribute="centerX" secondItem="5z1-CK-5h5" secondAttribute="centerX" type="default" id="sNd-Gv-WaW"/>
                             <constraint firstItem="5z1-CK-5h5" firstAttribute="top" secondItem="3" secondAttribute="top" constant="234" id="tJm-rX-puP"/>
                         </constraints>
                     </view>

@@ -27,6 +27,17 @@
 }
 
 - (IBAction)click:(id)sender {
+    
+    [self Justprint];
+}
+
+-(void)Justprint{
+
     NSLog(@"Git test");
+    NSLog(@"Git test");
+    NSLog(@"Git test");
+    NSLog(@"Git test");
+    NSLog(@"Git test");
+
 }
 @end
